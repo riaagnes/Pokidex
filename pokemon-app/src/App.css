@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+body {
+  background-image: url("./assets/pokimon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poiret One", cursive;
+}
+.pokemon-details {
+  display: flex;
+  flex-direction: row;
+  height: 35%;
+}
+.image {
+  height: 150px;
+}
+.details {
+  width: 50%;
+
+  height: inherit;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  border: #111111 solid 3px;
+
+  margin: auto;
+  display: block;
+  background-color: #f4fffd;
+  color: #250d11;
+  opacity: 0.9;
+
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+.detail-container {
+  height: inherit;
+}
+.image-div {
+  width: 50%;
+  height: inherit;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  border: #111111 solid 3px;
+  padding-top: 10px;
+
+  display: block;
+  background-color: #f4fffd;
+  color: #250d11;
+  opacity: 0.9;
+
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: #f4fffd;
+  font-size: 2em;
+}
+.nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  background-color: #c2e9ee;
+}
+
+.nav > li {
+  padding: 5px;
+}
+
+.nav > li.action:hover {
+  background-color: aqua;
+}
+
+.nav > li.logout {
+  margin-left: auto;
+}
+.introduction,
+p {
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.column-7 {
+  float: left;
+  margin-right: -100%;
+  width: 49.22%;
+}
+.push {
+  margin-left: 50.7825%;
+}
+span {
+  font-family: "Flexo-Medium", arial, sans-serif;
+  clear: both;
+  float: left;
+
+  margin: 1.25em 0 0 1.25em;
+  text-transform: none;
+  white-space: normal;
+}
+.pokimon-values {
+  list-style: none;
+}
+
+.add {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  border: #111111 solid 3px;
+  padding: 5px;
+  margin: auto;
+  display: block;
+  background-color: #f4fffd;
+  color: #250d11;
+  opacity: 10.5;
+  width: 50vw;
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.poki-list {
+  height: 10%;
+  list-style: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #f4fffd;
+  opacity: 0.9;
+  border: #111111 solid 3px;
+  border-radius: 10px;
+}
+
+.favorite-pokimon {
+  float: left;
+}
+
+.poki-list > ul {
+  list-style: none;
+  overflow-y: scroll;
+}
+.poki-Image {
+  height: 20%;
+}
+.search {
+  margin-top: 2%;
+  text-align: center;
+  color: black;
+}
+.login {
+  margin-top: 2%;
+  text-align: center;
+  color: black;
+}
+.error {
+  color: white;
+  font-size: 2em;
+}
+input {
+  border: 5px solid black;
+  padding: 15px;
+  background-color: #f4fffd;
+  margin: 0 0 10px 0;
+
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 1em;
+  border: #111111 solid 3px;
+  background-color: #f4fffd;
+  color: #250d11;
+  opacity: 10.5;
+  width: 10vw;
+  height: 6vh;
+  border-radius: 10px;
+}
